@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    padding: 10px;
+}
+
+.main{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: start;
+}
+.menu li:nth-child(odd){
+    background-color: grey;
+}
+.menu li {
+    display: block;
+    min-width: 100px;
+}
+.content-top{
+    min-height: 200px;
+}
+.content-bottom{
+    min-height: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   
+    width: 80%;
+ 
+}
